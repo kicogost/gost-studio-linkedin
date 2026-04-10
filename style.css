@@ -562,6 +562,12 @@ ul { list-style: none; }
   color: var(--text-muted);
 }
 .about__image .placeholder { min-height: 360px; }
+.about__photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
 @media (max-width: 768px) {
   .about__grid { grid-template-columns: 1fr; }
   .about__image { order: -1; }
