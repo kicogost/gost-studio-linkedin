@@ -146,6 +146,34 @@ ul { list-style: none; }
   margin-top: 20px;
 }
 
+/* ─── Screenshot images ─────────────────────────────────────── */
+.hero__screenshot {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.4);
+}
+.testimonial-card__photo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.testimonial-card__proof {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid var(--border-light);
+}
+.case__screenshot {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+
 /* ═══════════════════════════════════════════════════════════════
    NAV
    ═══════════════════════════════════════════════════════════════ */
