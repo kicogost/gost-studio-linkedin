@@ -173,6 +173,11 @@ ul { list-style: none; }
   border-radius: 10px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.3);
 }
+.case__image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
 /* ═══════════════════════════════════════════════════════════════
    NAV
